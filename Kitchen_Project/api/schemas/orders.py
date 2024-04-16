@@ -3,6 +3,12 @@ from typing import Optional
 from pydantic import BaseModel
 from .order_details import OrderDetail
 
+# id = Column(Integer, primary_key=True, index=True, autoincrement=True)
+# customer_name = Column(String(100))
+# order_date = Column(DATETIME, nullable=False, server_default=str(datetime.now()))
+# description = Column(String(300))
+#
+# order_details = relationship("OrderDetail", back_populates="order")
 
 
 class OrderBase(BaseModel):

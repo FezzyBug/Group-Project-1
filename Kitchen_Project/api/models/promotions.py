@@ -10,5 +10,5 @@ class Promotion(Base):
     id = Column(Integer, primary_key=True, index=True, autoincrement=True)
     promo_code = Column(String(50))
     usage_limit = Column(Integer)
-    applicable_items = Column(Text)
+    applicable_items = Column(String(200))
     expiration_date = Column(DATETIME)

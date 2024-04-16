@@ -1,0 +1,2 @@
+def customers():
+    return None
