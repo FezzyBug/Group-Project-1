@@ -1,5 +1,6 @@
 from typing import Optional
 from pydantic import BaseModel
+from sqlalchemy import DECIMAL, Text
 
 
 class MenuItemsBase(BaseModel):
