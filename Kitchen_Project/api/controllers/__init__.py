@@ -9,3 +9,6 @@ def menu_items():
 
 def reviews():
     return None
+
+def data_analysis():
+    return None
