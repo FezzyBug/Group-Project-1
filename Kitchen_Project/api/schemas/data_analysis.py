@@ -30,4 +30,3 @@ class DataAnalysis(DataAnalysisBase):
 
     class Config:
         orm_mode = True
-        
